@@ -12,7 +12,7 @@ export default function Item() {
                     </div>
                     <div className='item-data--right'>
                         <div className="item-rating">
-                            <img src="" alt="" className="rating-star" />
+                            <img src="http://placekitten.com/g/24/24" alt="" className="rating-star" />
                             <p className="rating-number">10.00</p>
                         </div>
                     </div> 

@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 48rem;
 
-    &-data, &-data--top, &-data--bottom, &-data--left, &-data--right {
+    &-data, &-data--top, &-data--bottom, &-data--left, &-data--right, &-rating {
         display: flex;
     }
     &-data {
@@ -28,5 +28,9 @@
     &-data--left, &-data--right {
         align-items: center;
         gap: 1.2rem;
+    }
+    &-rating {
+        gap: 1.2rem;
+        align-items: center;
     }
 }
