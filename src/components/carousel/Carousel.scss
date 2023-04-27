@@ -1,5 +1,16 @@
+@import '../../scss/mixins.scss';
+
 .carousel {
+    margin: 0 2.4rem;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+
+    @include mq--desktop {
+        margin: 0 9.6rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }   
+    @include color--purple;
 }
+
