@@ -1,7 +1,6 @@
 @mixin color--purple {
     color: purple;
 }
-
 @mixin mq--desktop {
     @media all and (min-width: 720px) { @content };
 }

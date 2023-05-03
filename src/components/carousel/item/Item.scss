@@ -5,8 +5,6 @@
     flex-direction: column;
     text-decoration: none;
 
-    @include color--purple;
-
     &-data, &-data--top, &-data--bottom, &-data--left, &-data--right, &-rating {
         display: flex;
     }
@@ -19,7 +17,7 @@
         border-radius: 24px;
     }
     &-superhost {
-        border: 1px solid black;
+        border: 1px solid purple;
         border-radius: 24px;
         padding: .6rem;
     }
